@@ -1,0 +1,6 @@
+dvc
+dvc[s3]
+numpy
+pandas
+scikit-learn
+joblib
