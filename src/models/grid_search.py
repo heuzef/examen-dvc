@@ -7,8 +7,6 @@ import pickle
 
 from sklearn.model_selection import GridSearchCV
 from sklearn.linear_model import PoissonRegressor
-
-from sklearn.metrics import make_scorer
 from sklearn.metrics import root_mean_squared_error
 
 # Load parameters
