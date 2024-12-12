@@ -14,7 +14,7 @@ print(params)
 
 # Import dataset
 print("Import des données")
-df = pd.read_csv("data/raw_data/raw.csv", sep = ',')
+df = pd.read_csv("data/raw_data/raw.csv", sep = ',', index_col="date")
 X, y = df.drop(['silica_concentrate'], axis = 1), df['silica_concentrate']
 
 # Split data
